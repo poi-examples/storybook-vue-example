@@ -5,6 +5,8 @@ module.exports = {
     '.storybook/addons.js'
   ],
 
+  dist: '.storybook/dist',
+
   presets: [
     require('poi-preset-storybook')()
   ]
