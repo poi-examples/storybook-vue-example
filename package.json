@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "storybook-vue-example",
+  "version": "0.0.0",
+  "scripts": {
+    "storybook": "poi --config .storybook/poi.config.js --storybook",
+    "storybook:build": "poi build --config .storybook/poi.config.js --storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.13",
+    "poi": "^9.4.3",
+    "poi-preset-storybook": "^0.1.0",
+    "storybook-vue": "^3.2.14"
+  }
+}
